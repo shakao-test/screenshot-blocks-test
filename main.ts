@@ -2,7 +2,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (Math.percentChance(60)) {
         info.changeScoreBy(1)
     } else {
-        info.changeScoreBy(-1)
+        info.changeScoreBy(-2)
     }
 })
 function test_function () {
@@ -28,7 +28,7 @@ function test_function () {
     music.playMelody("- - - - - - - - ", 120)
 }
 let mySprite: Sprite = null
-scene.setBackgroundColor(5)
+scene.setBackgroundColor(11)
 game.onUpdate(function () {
     info.setLife(3)
 })
